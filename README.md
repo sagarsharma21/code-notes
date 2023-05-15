@@ -16,3 +16,14 @@ Loading Local Module
 To use local modules in the application, it can be loaded using require() function.
     var module = require('./mod.js');
     The '.' represents the root folder.     
+->The module.exports is a special object that is included in every JavaScript file in Node.js by default.
+->It exposes anything that is assigned to it as a module. 
+
+NPM is the largest repository of packages. NPM is a command line tool used to install, uninstall and update npm packages in the node environment. NPM is installed with Node.js installation.
+
+
+npm install <package-name>
+npm update <package-name>
+npm uninstall <package-name>
+
+Web server is required to ccesss any web pages of any application.
