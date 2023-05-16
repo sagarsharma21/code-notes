@@ -27,3 +27,12 @@ npm update <package-name>
 npm uninstall <package-name>
 
 Web server is required to ccesss any web pages of any application.
+
+
+-----------------------------------------------------------------------------------------------
+Node.js File System
+    NOde includesa fs module to access physucal file system. The fs module is responsible for all the sync and async file I/O operations.
+    Some common I/O operations that can be performed using fs module are:
+    Reading a file
+    use fs.readFile() method  to read the physical file asyncly.
+    fs.readFile(filename, [options],callback) 
