@@ -36,3 +36,6 @@ Node.js File System
     Reading a file
     use fs.readFile() method  to read the physical file asyncly.
     fs.readFile(filename, [options],callback) 
+
+Node.js Event Emitter
+Node allows us to create custom events and handle them using the events Module. Event module includes the EventEmitter class.
